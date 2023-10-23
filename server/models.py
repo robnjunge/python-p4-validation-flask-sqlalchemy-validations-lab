@@ -66,5 +66,5 @@ class Post(db.Model):
     def validate_category(self, key, category):
         valid_categories = ['Fiction', 'Non-Fiction']
         if category not in valid_categories:
-            raise ValueError("Category must be 'Fiction' or 'Non-Fiction'.")
+            raise ValueError("Category must be 'Fiction' or 'Non-Fiction.")
         return category
